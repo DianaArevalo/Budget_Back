@@ -1,0 +1,29 @@
+{
+  "name": "budget_back",
+  "version": "1.0.0",
+  "description": "Backend budget",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DianaArevalo/Budget_Back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DianaArevalo/Budget_Back/issues"
+  },
+  "homepage": "https://github.com/DianaArevalo/Budget_Back#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "passport-google-oidc": "^0.1.0",
+    "passport-oauth": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
